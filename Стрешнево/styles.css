@@ -1,0 +1,170 @@
+
+body {
+	margin:0px;
+}
+
+.adress p{
+	padding: 10px;
+	display: inline-block;
+	margin: 0px;
+}
+
+.nav {
+display: flex;
+justify-content: space-between;
+padding: inherit;
+}
+
+.nav a {
+ color:white;
+ text-decoration: none;
+ padding: inherit;
+	}
+
+.menu {
+	padding: 10px;
+
+}
+
+.menu img {
+	padding-left: 10px
+	padding-right: 10px;
+}
+
+
+header {
+background-image: url("./images/bg1.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+text-transform: uppercase;
+color: white;
+padding: 10px;
+border-image: url("./images/frame.png") round;
+}
+
+.logo_header {
+	margin: 10px;
+	padding-bottom: 30px;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.logo_header{
+	display: block;
+	margin: 0 auto:;
+}
+
+.center_header {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 80px;
+	margin-top: 80px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center; }
+
+.center_header_closer {
+	margin: 20px;
+	margin-top: 80px;
+	padding-left: 200px;
+	padding-right: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.big-romb{
+	width: 186px;
+	height: 186px;
+}
+
+.close_rombs {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.descr {
+	background-color:#ac9766;
+	display: flex;
+	justify-content: center;
+	padding-top: 90px;
+	padding-bottom: 140px;
+	flex-direction: column;
+	padding-left:27%;
+	padding-right: 27%;
+}
+
+h2, .location p {
+font-family: ﻿OpenSans-Light, ﻿AdobeInvisFont, ﻿MyriadHebrew-Regular;
+color: rgba(235, 235, 235, 255);
+text-transform: uppercase;
+}
+
+.descr h2 {
+	text-align:center;
+}
+
+.descr p{
+font-family: ﻿OpenSans, ﻿AdobeInvisFont, ﻿MyriadHebrew-Regular;
+font-size: 14pt;
+color: rgba(0, 0, 0, 255);
+text-align: left;
+}
+
+.decor{
+	height: 140px;
+	width: 140px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+
+}
+
+.benefits {
+	display: flex;
+	justify-content: space-around;	
+	margin-top: 30px;
+}
+
+.location {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url("./images/map-bg.png");
+	background-color: rgb(172,151,102,0.9);
+}
+
+.center-loc {
+	align-items: center;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.location p {
+	margin-top: 100px
+}
+
+.logo_bg {
+	background-color:#48280a;
+	width: 120px;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo_bg img {
+	width:70px;
+	height: 93px;
+}
+
