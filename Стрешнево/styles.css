@@ -45,7 +45,7 @@ text-transform: uppercase;
 color: white;
 padding: 10px;
 border-image: url("./images/frame.png") round;
-width: 100%;
+width: auto;
 height: 100%;
 flex-wrap: wrap;
 }
@@ -147,12 +147,12 @@ text-align: left;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background: url("./images/map-bg.png") center, url("./images/bg-icons.png") center;
+	background: url("./images/Location-map-all.png") center no-repeat;
+	background-size: cover;
+	height: 744px;
 	
 }
 
-.location-bg {
-}
 
 .center-loc {
 	align-items: center;
@@ -161,24 +161,35 @@ text-align: left;
 	flex-direction: column;
 }
 
+.center-loc h2 {
+	margin-bottom: 0px;
+
+}
+
 .location .center-loc p {
 	margin: 10px;
-	margin-top: 100px;
+	margin-top: 75%;
+	font-size: 20px;
+	line-height: 25px;
 	
 }
 
 .logo_bg {
 	background-color:#48280a;
-	width: 120px;
-	height: 120px;
+	width: 240px;
+	height: 240px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: 20px;
+
+
 }
 
 .logo_bg img {
 	width:70px;
 	height: 93px;
+	padding: 10px;
 }
 
 
@@ -186,9 +197,12 @@ text-align: left;
 	display: flex;
 	flex-direction: row;
 	align-self: flex-end;
-	font-size: 15px;
 	font-family: 'Open Sans Ligth';
 
+}
+
+.loc-buttons{
+	margin-top: 5%;
 }
 
 .button, .button_litgher {
@@ -198,7 +212,14 @@ text-align: left;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
-	padding: 10px;
+	padding: 20px;
+	flex-basis: 5%;
+	flex-wrap: nowrap;
+}
+
+.button p, .button_litgher p {
+	margin: 0px
+	
 }
 
 .button_litgher {
