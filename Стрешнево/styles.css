@@ -41,16 +41,20 @@ font-size: 15px;
 
 
 header {
-background-image: url("./images/bg1.png");
-background-repeat: no-repeat;
-background-attachment: fixed;
-text-transform: uppercase;
-color: white;
-padding: 10px;
-border-image: url("./images/frame.png") round;
-width: 100%;
-height: 100%;
-flex-wrap: wrap;
+    background-image: url(./images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+    height: 100%;
+    flex-wrap: wrap; }
+
+.border {
+	border: 2px solid;
+	border-color: rgba(255,255,255,0.3);
+	margin: 10px;
 }
 
 .logo_header {
@@ -271,3 +275,40 @@ text-align: left;
 	max-width: 18px;
 }
 
+.solutions {
+	display:flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: space-around;
+	font-family: 'Open Sans Ligth';
+	color:white;
+	background-image: url("./images/Solutions.png");
+	background-size: cover;
+	height: 750px;
+	width: 100%;
+}
+
+.wrap-row {
+	display:flex;
+	flex-direction: row;
+}
+
+.wrap-row-solution {
+	justify-content: space-around;
+	display:flex;
+	flex-direction: row;
+
+}
+
+.bigger-opacity {
+	background: #48280a;
+	opacity: 0.3;	
+}
+
+.fill-in {
+	background: #48280a;
+	flex-basis:auto;
+}
+.bigger-opacity p{
+	padding: 40px;
+}
