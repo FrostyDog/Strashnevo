@@ -5,25 +5,28 @@ body {
 
 
  p {
-	 font-family: 'Open Sans Light';
+	 font-family: 'Open Sans', sans-serif;
  }
 
 .adress p{
 	padding: 10px;
 	display: inline-block;
 	margin: 0px;
+	font-weight: 500;
 }
 
 .nav {
 display: flex;
 justify-content: space-between;
 padding: inherit;
+font-size: 15px;
 }
 
 .nav a {
  color:white;
  text-decoration: none;
  padding: inherit;
+ font-family: 'Open Sans', sans-serif;
 	}
 
 .menu {
@@ -45,7 +48,7 @@ text-transform: uppercase;
 color: white;
 padding: 10px;
 border-image: url("./images/frame.png") round;
-width: auto;
+width: 100%;
 height: 100%;
 flex-wrap: wrap;
 }
@@ -110,7 +113,7 @@ flex-wrap: wrap;
 }
 
 h2, .location p {
-font-family: ﻿OpenSans-Light, ﻿AdobeInvisFont, ﻿MyriadHebrew-Regular;
+font-family: 'Open Sans';
 color: rgba(235, 235, 235, 255);
 text-transform: uppercase;
 }
@@ -120,7 +123,7 @@ text-transform: uppercase;
 }
 
 .descr p{
-font-family: ﻿OpenSans, ﻿AdobeInvisFont, ﻿MyriadHebrew-Regular;
+font-family: 'Open Sans';
 font-size: 14pt;
 color: rgba(0, 0, 0, 255);
 text-align: left;
@@ -136,7 +139,7 @@ text-align: left;
 
 }
 
-.benefits {
+.benefits-buttons {
 	display: flex;
 	justify-content: space-around;	
 	margin-top: 30px;
@@ -150,6 +153,7 @@ text-align: left;
 	background: url("./images/Location-map-all.png") center no-repeat;
 	background-size: cover;
 	height: 744px;
+	padding-bottom: 50px;
 	
 }
 
@@ -159,26 +163,23 @@ text-align: left;
 	display:flex;
 	justify-content: center;
 	flex-direction: column;
+	margin-top: 70px;
 }
 
 .center-loc h2 {
 	margin-bottom: 0px;
-
 }
 
 .location .center-loc p {
 	margin: 10px;
-	margin-top: 75%;
 	font-size: 20px;
+	margin-top: 45%;
 	line-height: 25px;
 	
 }
 
 .logo_bg {
 	background-color:#48280a;
-	width: 240px;
-	height: 240px;
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-top: 20px;
@@ -192,8 +193,11 @@ text-align: left;
 	padding: 10px;
 }
 
-
-.loc-buttons, .loc-icons { 
+.loc-icons {
+	align-self: flex-end;
+	margin-right: 15px;
+}
+.loc-buttons { 
 	display: flex;
 	flex-direction: row;
 	align-self: flex-end;
@@ -203,6 +207,7 @@ text-align: left;
 
 .loc-buttons{
 	margin-top: 5%;
+	margin-right: 4%;
 }
 
 .button, .button_litgher {
@@ -224,5 +229,45 @@ text-align: left;
 
 .button_litgher {
 	background-color: #603a17;
+}
+
+.benefits {
+	display: flex;
+	align-items: center;
+	background-color: #603a17;
+	opacity: 0.6;
+	padding-bottom: 80px;
+	flex-direction: column;
+
+}
+
+.benefits-wrap-row {
+	justify-content: space-around;
+	display:flex;
+	align-content: center;
+	padding-top: 80px;
+	width: 75%;
+	
+}
+
+.title-ben {
+	padding-top: 50px;
+}
+
+.benefit {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family: 'Open Sans Ligth';
+	font-size: 15px;
+	text-transform: uppercase;
+	flex-direction: column;
+	flex-basis: 20%;
+	color:white;
+}
+
+.benefit img {
+	flex-basis: 18px;
+	max-width: 18px;
 }
 
