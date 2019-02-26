@@ -114,6 +114,17 @@ header {
 	flex-direction: column;
 	padding-left:27%;
 	padding-right: 27%;
+	min-height: 900px;
+	transition: 0.5;
+}
+
+@media screen and (max-width: 600px) {
+.descr {
+	padding-top: 50px;
+	padding-bottom: 40px;
+	padding-left:4%;
+	padding-right: 4%;
+	}
 }
 
 h2, .location p {
@@ -222,7 +233,6 @@ text-align: left;
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
-	flex-basis: 5%;
 	flex-wrap: nowrap;
 }
 
@@ -242,6 +252,8 @@ text-align: left;
 	opacity: 0.6;
 	padding-bottom: 80px;
 	flex-direction: column;
+	min-height: 716px;
+	flex-wrap:wrap;
 
 }
 
@@ -266,8 +278,9 @@ text-align: left;
 	font-size: 15px;
 	text-transform: uppercase;
 	flex-direction: column;
-	flex-basis: 20%;
 	color:white;
+	min-width: 203px;
+	max-width: 20%;
 }
 
 .benefit img {
@@ -279,36 +292,51 @@ text-align: left;
 	display:flex;
 	text-align: center;
 	flex-direction: column;
-	justify-content: space-around;
 	font-family: 'Open Sans Ligth';
 	color:white;
-	background-image: url("./images/Solutions.png");
-	background-size: cover;
-	height: 750px;
+	background: url("./images/Solutions.png") no-repeat center;
+	min-height: 750px;
 	width: 100%;
+}
+
+.solutions h2 {
+	margin-top: 40px;
 }
 
 .wrap-row {
 	display:flex;
 	flex-direction: row;
+	
 }
 
 .wrap-row-solution {
 	justify-content: space-around;
 	display:flex;
 	flex-direction: row;
+	margin-top: 143px;
+	align-items: center;
+	
 
 }
 
 .bigger-opacity {
 	background: #48280a;
-	opacity: 0.3;	
+	height: 265px;
+	width: 265px;
+	box-sizing: border-box;
+	border: 4px solid;
 }
 
 .fill-in {
 	background: #48280a;
-	flex-basis:auto;
+	height: 100px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24pt;
+
 }
 .bigger-opacity p{
-	padding: 40px;
+	font-size: 28pt;
 }
