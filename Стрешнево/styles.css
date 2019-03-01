@@ -31,7 +31,7 @@ font-size: 15px;
 }
 
 .nav a {
- color:white;
+ color:#e1e1e1;
  text-decoration: none;
  padding: inherit;
  font-family: 'Open Sans', sans-serif;
@@ -54,7 +54,7 @@ header {
     background-size: cover;
     /* background-attachment: fixed; */
     text-transform: uppercase;
-    color: white;
+    color: #e1e1e1;
 	padding: 10px;
     flex-wrap: wrap; }
 
@@ -134,7 +134,7 @@ header {
 	}
 }
 
-h2, .location p {
+h2{
 font-family: 'Open Sans';
 color: rgba(235, 235, 235, 255);
 text-transform: uppercase;
@@ -223,7 +223,7 @@ text-align: left;
 	display: flex;
 	flex-direction: row;
 	align-self: flex-end;
-	font-family: 'Open Sans Ligth';
+	font-family: 'Open Sans';
 
 }
 
@@ -241,6 +241,9 @@ text-align: left;
 	align-items: center;
 	padding: 20px;
 	flex-wrap: nowrap;
+	color:#e1e1e1;
+	font-family: 'Open Sans';
+	text-transform: uppercase;
 }
 
 .button p, .button_litgher p {
@@ -286,7 +289,7 @@ text-align: left;
 	font-size: 15px;
 	text-transform: uppercase;
 	flex-direction: column;
-	color:white;
+	color:#e1e1e1;
 	min-width: 203px;
 	max-width: 20%;
 }
@@ -301,7 +304,7 @@ text-align: left;
 	text-align: center;
 	flex-direction: column;
 	font-family: 'Open Sans Ligth';
-	color:white;
+	color:#e1e1e1;
 	background: url("./images/Solutions.png") no-repeat center;
 	min-height: 750px;
 	width: 100%;
@@ -315,6 +318,7 @@ text-align: left;
 .wrap-row {
 	display:flex;
 	flex-direction: row;
+	flex-wrap:wrap;
 	
 }
 
@@ -361,23 +365,70 @@ text-align: left;
 
 .podbor{
 	min-height: 1200px;
-	background: #ab9665;
+	background: url("./images/bg-podbor.png");
 	display:flex;
 	text-align: center;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	color:white;
+	color:#e1e1e1;
+	flex-wrap:wrap;
 }
 
 .podbor .button {
 	max-width: 156px;
 }
 
+.results-found {
+font-weight: bold;
+font-size: 26px;
+color: rgba(0, 0, 0, 255);
+transform: uppercase;
+margin: 80px;
+}
+
 table {
 	max-width: 700px;
+	padding-bottom: 40px;
 }
 
 td , th{
-padding: 70px;
+padding: 20px;
+color: #463d2a;
+font-size: 20px;
+}
+
+thead th, h4{
+	color: #e1e1e1;
+	font-family: "Open Sans"
+}
+
+.shadow {
+	background: #968256;
+	opacity: 0.3;
+	position: relative;
+
+}
+
+.gap {
+	padding: 20px;
+	padding-left: 45px;
+	padding-right: 45px;
+	flex-basis: 300px;
+	
+}
+
+.gap-bigger {
+	padding: 20px;
+	padding-left: 70px;
+	padding-right: 70px;
+	flex-basis: 300px;
+
+}
+.wrap-row-center {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
